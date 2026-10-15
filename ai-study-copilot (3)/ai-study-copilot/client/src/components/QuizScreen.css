@@ -1,0 +1,10 @@
+.quiz-screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.quiz-screen__progress {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-small);
+}
