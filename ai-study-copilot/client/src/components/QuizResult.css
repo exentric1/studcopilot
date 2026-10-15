@@ -1,0 +1,31 @@
+.quiz-result {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.quiz-result__title {
+  font-size: var(--font-size-title);
+}
+
+.quiz-result__score {
+  color: var(--color-accent);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.quiz-result__text {
+  color: var(--color-text-muted);
+}
+
+.quiz-result__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+@media (min-width: 640px) {
+  .quiz-result__actions {
+    flex-direction: row;
+  }
+}
